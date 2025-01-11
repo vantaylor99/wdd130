@@ -4,19 +4,19 @@ nav {
 }
 
 nav a {
-  color: lightcyan;
+  color: lightskyblue;
   display: block;
   padding: 20px;
 }
 
 h1 {
-  color: darkkhaki;
+  color: darkseagreen;
 }
 
 img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid darkslategrey;
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
