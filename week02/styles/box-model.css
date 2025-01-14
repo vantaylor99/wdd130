@@ -1,0 +1,37 @@
+.callout {
+	max-width: 400px;
+    max-height: 240px;
+    margin: auto;
+    border: 10px solid white;
+    padding: 17px;
+    background-color: #224477;
+    -webkit-text-fill-color: white;
+}
+
+.callout img {
+    float: right;
+    margin: 1px;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    background-color: #BBBBBB;
+    border: 1px solid black;
+}
+
+blockquote {
+	margin: 1px;
+}
+
+/* Philippians 4:11-13 */
+cite {
+	display: block;
+    border-top: 1px dotted white;
+    padding-top: 3px;
+    text-align: right;
+    font-size: small;
+}
+
+/* I just added this background so I could see the white border */
+body{
+    background-color: rgb(255, 220, 251);
+}
