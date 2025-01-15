@@ -36,7 +36,7 @@ nav {
 }
 
 nav a {
-  color: rgb(0, 0, 0);
+  color: black;
   display: block;
   padding: 20px;
 }
