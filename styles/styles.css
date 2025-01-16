@@ -1,35 +1,19 @@
-/* CSS from Week 02 End */
-
+/* Misc pieces */
 main {
   max-width: 840px;
 }
 
-aside{
-  /* Originally I did the width and margins wrong as px but I changed them to REM and now understand the benefits of REM */
-  width: 20rem; 
-  margin: 0.08rem;
-  border: dotted darkgray 10px;
-  padding: 1rem;
-  background-color: lightblue;
-  color: bisque;
-  text-align: center;
+body{
+  background-color: rgb(255, 252, 223);
 }
 
-aside img{
-  width: 200px;
-  height: auto;
+p {
+  padding: 10px;
 }
-
-p { padding: 0;}
-
-footer {
-  margin-top: 35px;
-  border-top: dashed rgb(255, 200, 228) 5px;
-  text-align: center;
-}
+/* ---------------------------------------------------------- */
 
 
-/* CSS from Mid Week 2 */
+/* First third */
 nav {
   background-color: rgb(255, 200, 228);
   padding: 10px;
@@ -40,9 +24,12 @@ nav a {
   display: block;
   padding: 20px;
 }
+/* ---------------------------------------------------------- */
 
+
+/* Second third */
 h1 {
-  color: darkseagreen;
+  color: rgb(109, 141, 109);
 }
 
 main img {
@@ -52,11 +39,27 @@ main img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
+/* ---------------------------------------------------------- */
 
-p {
-  padding: 10px;
+
+/* Third third */
+aside{
+  width: 20rem; 
+  margin: 0.08rem;
+  border: dotted darkgray 10px;
+  padding: 1rem;
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
 
-body{
-  background-color: rgb(255, 252, 223);
+aside img{
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  margin-top: 35px;
+  border-top: dashed rgb(255, 200, 228) 5px;
+  text-align: center;
 }
