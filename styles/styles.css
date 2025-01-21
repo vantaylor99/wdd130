@@ -1,3 +1,15 @@
+:root {
+  --heading-background-color: rgb(255, 249, 190);
+  --secondary-background-color: lightblue;
+  --content-background-color: rgb(255, 200, 228);
+  --heading-text-color: rgb(109, 141, 109);
+  --heading-font: 'Comfortaa', Georgia, Verdana;
+  --padding: 0.8rem;
+  --border: dotted darkgrey 1rem;
+  --content-border-footer: dashed rgb(255, 200, 228) 5px;
+
+}
+
 /* Misc pieces */
 main {
   max-width: 840px;
@@ -15,7 +27,7 @@ p {
 
 /* First third */
 nav {
-  background-color: rgb(255, 200, 228);
+  background-color: var(--content-background-color);
   padding: 10px;
 }
 
@@ -29,7 +41,10 @@ nav a {
 
 /* Second third */
 h1 {
-  color: rgb(109, 141, 109);
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
 }
 
 main img {
@@ -37,7 +52,7 @@ main img {
   height: auto;
   border: 1px solid darkslategrey;
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: 0 0 30px gray 1rem;
 }
 /* ---------------------------------------------------------- */
 
@@ -45,8 +60,8 @@ main img {
 /* Third third */
 aside{
   width: 20rem; 
-  margin: 0.08rem;
-  border: dotted darkgray 10px;
+  margin: var(--padding);
+  border: var(--border);
   padding: 1rem;
   background-color: lightblue;
   color: rgb(0, 0, 0);
@@ -60,6 +75,6 @@ aside img{
 
 footer {
   margin-top: 35px;
-  border-top: dashed rgb(255, 200, 228) 5px;
+  border-top: var(--content-border-footer);
   text-align: center;
 }
