@@ -1,0 +1,160 @@
+:root {
+    /* Rafting Colors. Link to colors.co https://coolors.co/b6b197-b49a67-1d2d44-307351  */
+    --primary-color: #B6B197;
+    --secondary-color: #B49A67;
+    --accent-color1: #1D2D44;
+    --accent-color2: #307351;
+    --heading-font: "Moirai one", sans-serif;
+    --paragraph-font: "Roboto" sans-serif;
+    --margin: 0.8rem;
+    --padding: 0.8rem;
+    --left-margin: 4.5rem;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer,
+nav {
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+main {
+    background-color: var(--secondary-color);
+}
+
+nav,
+header,
+.rafting_images,
+.history,
+footer {
+    padding-left: var(--left-margin);
+}
+
+/* First third */
+.logo_nobg {
+    width: 150px;
+    height: auto;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding-bottom: 15px;
+}
+
+.navigation-tabs a,
+.social_links a {
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    color: var(--accent-color2);
+    background-color: var(--secondary-color);
+}
+
+
+/* Main upper Image (intro image) */
+article {
+    font-family: var(--paragraph-font);
+    color: var(--accent-color1);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+.hero h2 {
+    padding-bottom: 6px;
+}
+
+
+.hero article img {
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-left: 12px;
+    margin-right: -12px;
+    margin-top: -48px;
+    margin-bottom: 16px;
+
+}
+
+.hero article {
+    padding: 12px;
+    position: absolute;
+    text-align: left;
+    top: 33%;
+    left: 40%;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent-color2);
+}
+
+
+h2 {
+    font-family: var(--paragraph-font);
+    color: var(--accent-color1);
+}
+
+.rafting_images h2,
+.history h2 {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--accent-color2);
+}
+
+
+.rafting_images img {
+    display: block;
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
+
+.social_links img {
+    height: 40px;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+body {
+    background-color: var(--primary-color);
+    /* font-family: var(--heading-font); */
+}

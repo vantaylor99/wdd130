@@ -3,10 +3,18 @@
   --secondary-background-color: lightblue;
   --content-background-color: rgb(255, 200, 228);
   --heading-text-color: rgb(109, 141, 109);
-  --heading-font: 'Comfortaa', Georgia, Verdana;
+  --heading-font: "Moirai one";
   --padding: 0.8rem;
   --border: dotted darkgrey 1rem;
   --content-border-footer: dashed rgb(255, 200, 228) 5px;
+
+  /* Rafting Colors. Link to colors.co https://coolors.co/b6b197-b49a67-1d2d44-307351  */
+  --primary-color: #b6b197;
+  --secondary-color: #B49A67;
+  --accent-color1: #1D2D44;
+  --accent-color2: #307351;
+
+
 
 }
 
@@ -15,8 +23,16 @@ main {
   max-width: 840px;
 }
 
+/* Fonts */
+
+
+
 body{
   background-color: rgb(255, 252, 223);
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 
 p {
