@@ -1,9 +1,9 @@
 :root {
     /* Rafting Colors. Link to colors.co https://coolors.co/b6b197-b49a67-1d2d44-307351  */
-    --primary-color: #B6B197;
-    --secondary-color: #B49A67;
+    --primary-color: #e0dabb;
+    --secondary-color: #d4b880;
     --accent-color1: #1D2D44;
-    --accent-color2: #307351;
+    --accent-color2: #193929;
     --heading-font: "Moirai one";
     --paragraph-font: "Roboto";
     --margin: 0.8rem;
@@ -62,7 +62,7 @@ p {
 
 /* First third */
 .logo_nobg {
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 
@@ -160,18 +160,18 @@ article {
 
 
 .hero article img {
-    width: 50%;
+    width: 40%;
     height: auto;
     float: right;
     margin-left: 12px;
-    margin-right: -12px;
-    margin-top: -48px;
-    margin-bottom: 16px;
+    margin-right: -20px;
+    margin-top: -56px;
+    margin-bottom: 12px;
 
 }
 
 .hero article {
-    padding: 12px;
+    padding: 20px;
     position: absolute;
     text-align: left;
     top: 33%;
@@ -259,11 +259,11 @@ article {
 
 
 footer {
-    padding-top: var(--margin);
-    padding-bottom: var(--margin);
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--secondary-color);
+    justify-content: flex-end;
 
 }
 
