@@ -279,6 +279,7 @@ footer p {
     grid-column: 3;
     gap: 10px;
     display: flex;
+    justify-content: flex-end;
     place-self: center end;
 
 }
