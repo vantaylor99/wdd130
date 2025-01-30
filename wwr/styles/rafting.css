@@ -260,28 +260,21 @@ article {
 
 footer {
     padding: 1rem;
+    padding-right: 72px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 184px 1fr 140px;
     background-color: var(--secondary-color);
-    justify-content: flex-end;
-
+    align-items: center;
 }
 
 footer p {
     grid-column: 2;
-    place-content: center;
-    display: flex;
-    align-items: center;
     text-align: center;
 }
 
 .social_links {
-    grid-column: 3;
     gap: 10px;
     display: flex;
-    justify-content: flex-end;
-    place-self: center end;
-
 }
 
 .social_links img {
