@@ -8,8 +8,8 @@
     --paragraph-font: "Source Sans 3", sans-serif;
     --margin: 0.8rem;
     --padding: 2rem;
-    --left-margin: 4.5rem;
-    --right-margin: 4.5rem;
+    --left-margin: 2rem;
+    --right-margin: 2rem;
 
 }
 
@@ -33,7 +33,7 @@ main {
 }
 
 
-header,
+
 .rafting_images,
 .history,
 footer {
