@@ -261,7 +261,7 @@ article {
 
 footer {
     padding: 1rem;
-    padding-right: 72px;
+    padding-right: 2rem;
     display: grid;
     grid-template-columns: 184px 1fr 140px;
     background-color: var(--secondary-color);
@@ -405,6 +405,12 @@ fieldset {
 
 .feedback textarea {
     width: 355px;
+    padding: 10px;
+    font-family: var(--paragraph-font);
+}
+
+.feedback textarea::placeholder {
+    font-family: var(--paragraph-font);
 }
 
 .form-item {
@@ -414,6 +420,8 @@ fieldset {
 .feedback {
     padding-bottom: 8px;
 }
+
+
 
 input[type="checkbox"] {
     width: 30px;
@@ -440,4 +448,74 @@ button {
 
 button:hover {
     background-color: var(--secondary-color);
+}
+
+
+/* Meet the team */
+
+.container2 h2 {
+    letter-spacing: 1px;
+}
+
+.container2 h1 {
+    font-size: 45px;
+}
+
+.container2 p {
+    padding: 0.8rem;
+    color: var(--accent-color1);
+}
+
+.intro {
+    text-align: center;
+}
+
+/* Staff pics */
+.team_images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 83px;
+    padding: var(--left-margin);
+    padding-bottom: 0px;
+    place-items: center;
+}
+
+.team_images img {
+    width: 200px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.team_paragraphs h2 {
+    border-bottom: solid var(--accent-color1);
+}
+
+.team_paragraphs {
+    padding: var(--left-margin);
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 83px;
+    text-align: center;
+
+}
+
+/* .wireframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.wireframe img {
+    width: 40px;
+    height: auto;
+}
+
+.wireframe a {
+    padding-left: 2rem;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    color: var(--accent-color1);
 }
