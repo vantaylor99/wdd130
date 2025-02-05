@@ -72,6 +72,7 @@ header {
     grid-template-columns: 230px 1fr;
     align-items: center;
     border-bottom: solid 10px var(--accent-color1);
+    background-color: var(--secondary-color);
 }
 
 
@@ -110,9 +111,6 @@ div.nav_right a {
     border-radius: 0 5px 5px 0;
 }
 
-header {
-    background-color: var(--secondary-color);
-}
 
 .navigation-tabs a,
 .social_links a {
@@ -271,6 +269,7 @@ footer {
 footer p {
     grid-column: 2;
     text-align: center;
+    color: var(--accent-color1);
 }
 
 .social_links {
@@ -324,6 +323,7 @@ body {
 
 .contact_intro p {
     padding-bottom: 30px;
+    color: var(--accent-color1);
 }
 
 .contact_intro h1 {
@@ -369,7 +369,6 @@ body {
 
 .contact_paragraph {
     text-align: left;
-    align-items: last baseline;
 }
 
 
@@ -443,11 +442,13 @@ button {
     padding: 21.5px;
     padding-left: 30px;
     padding-right: 30px;
+    transition: background-color 0.3s ease, transform 0.2s;
 
 }
 
 button:hover {
     background-color: var(--secondary-color);
+    transform: scale(1.03);
 }
 
 
@@ -489,6 +490,7 @@ button:hover {
 
 .team_paragraphs h2 {
     border-bottom: solid var(--accent-color1);
+    padding-bottom: 10px;
 }
 
 .team_paragraphs {

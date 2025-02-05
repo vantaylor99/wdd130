@@ -82,25 +82,26 @@
                                 <label for="email">Email</label>
                             </div>
                             <div>
-                                <input type="text" id="useremail" name="useremail">
+                                <input type="text" id="email" name="email">
                             </div>
                             <div class="form-item column1.1">
-                                <label for="question">What is your contact related to?</label>
+                                <label>What is your contact related to?</label>
                             </div>
                             <div>
                                 <div>
-                                    <input type="radio">
+                                    <input type="radio" id="inquiry" name="question" value="inquiry">
                                     <label for="inquiry">General Inquiry</label>
                                 </div>
                                 <div>
-                                    <input type="radio">
+                                    <input type="radio" id="reservation" name="question" value="reservation">
                                     <label for="reservation">Reservation Question</label>
                                 </div>
                                 <div>
-                                    <input type="radio">
+                                    <input type="radio" id="suggestion" name="question" value="suggestion">
                                     <label for="suggestion">Website Suggestion</label>
                                 </div>
                             </div>
+
                             <div class="form-item feedback">
                                 <label for="feedback">Leave us a message</label>
                             </div>
@@ -113,7 +114,7 @@
                                 <input type="checkbox" id="subscribe" name="subscribe">
                             </div>
                         </fieldset>
-                        <button class="form-item" type="send_message">Send Message</button>
+                        <button class="form-item" type="button">Send Message</button>
                     </form>
                 </section>
             </div>
