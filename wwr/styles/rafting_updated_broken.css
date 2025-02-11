@@ -151,7 +151,7 @@ div.nav_right a {
 .button_box,
 .button_box a {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     text-decoration: none;
 }
 
@@ -186,14 +186,7 @@ div.nav_right a {
 
 
 
-.trips_button_box img {
-    width: 30px;
-    height: auto;
-    filter: brightness(1.5);
-}
-
-
-.home_image1 img {
+.home_image img {
     width: 626px;
     height: auto;
     box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
@@ -264,16 +257,10 @@ article {
     align-items: center;
 }
 
-.history_image {
-    justify-self: center;
-}
-
-
 .history_image img {
     width: 300px;
     height: auto;
     padding: 20px;
-
 
 }
 
@@ -368,6 +355,9 @@ footer p {
 
 
 
+
+
+
 /* Background Color */
 body {
     background-color: var(--primary-color);
@@ -378,6 +368,7 @@ body {
 
 .home_container1 {
     display: flex;
+    /* justify-content: space-between; */
     gap: 8px;
 }
 
@@ -387,243 +378,7 @@ body {
     padding: 2rem;
 }
 
-.home_image2-1 img {
-    width: 400px;
-    height: auto;
-    padding: var(--padding);
-    padding-top: 0;
-}
 
-.home_image2-2 img {
-    width: 800px;
-    height: auto;
-    padding-left: var(--padding);
-}
-
-
-.home_image2-2,
-.home_image2-1 {
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    align-items: center;
-    justify-items: center;
-    padding: var(--padding);
-}
-
-.home_image_paragraphs {
-    padding: var(--padding);
-    background: white;
-    border-radius: 1rem;
-}
-
-.home_image_paragraphs h1 {
-    color: var(--accent-color1);
-    padding-bottom: 10px;
-}
-
-
-.home_container3 {
-    padding-top: var(--padding);
-    padding-bottom: var(--padding);
-    row-gap: 1rem;
-}
-
-.absolute_container {
-    position: relative;
-}
-
-.absolute_container h1 {
-    position: absolute;
-    padding: var(--margin);
-    top: 7%;
-    left: 19%;
-    background-color: white;
-    border-radius: 1rem;
-}
-
-.absolute_container_paragraph {
-    position: absolute;
-    padding: var(--margin);
-    bottom: 15%;
-    left: 3%;
-    background: white;
-    border-radius: 1rem;
-    width: 250px;
-    height: auto;
-    border: dashed var(--secondary-color) 5px;
-}
-
-.absolute_container_paragraph h2 {
-    padding-bottom: 6px;
-}
-
-
-/* Home email sign up form */
-.home_container4 {
-    display: grid;
-    justify-content: space-between;
-    padding: var(--padding);
-    grid-template-columns: 1fr 750px 1fr;
-    gap: 2rem;
-}
-
-.home_container4 h2,
-.home_container4 p {
-    text-align: center;
-}
-
-.home_container4 p {
-    padding-bottom: 1rem;
-}
-
-.home_form {
-    grid-column: 2;
-}
-
-.home_form_item,
-.home_form_button {
-    text-align: center;
-
-}
-
-.home_form_item {
-    padding-bottom: 1rem;
-}
-
-
-
-
-
-
-/* Trips CSS */
-
-.trips_container1 {
-    display: flex;
-    gap: 8px;
-}
-
-.trips_column1 {
-    width: auto;
-    box-sizing: border-box;
-    padding: 2rem;
-    text-align: right;
-}
-
-.trips_intro h1,
-.trips_intro p {
-    padding-bottom: 10px;
-}
-
-.trips_intro h2 {
-    font-size: 16px;
-    color: rgb(255, 255, 255, 0.6);
-    letter-spacing: 4px;
-}
-
-.trips_intro_container {
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-}
-
-.trips_intro p {
-    padding-bottom: 30px;
-    color: rgb(255, 255, 255, 0.8);
-    font-size: 20px;
-}
-
-.trips_intro h1 {
-    font-size: 55px;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
-.trips_image1 img {
-    width: auto;
-    height: auto;
-    border-radius: 1rem;
-}
-
-.trips_button_box,
-.trips_button_box a {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 10px;
-    text-decoration: none;
-}
-
-.trips_button_box img {
-    width: 30px;
-    height: auto;
-    filter: brightness(1.5);
-}
-
-.trip_overview_images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-    gap: var(--padding);
-    padding: var(--left-margin);
-    padding-bottom: 0px;
-    place-items: center;
-}
-
-
-.trip_overview_paragraphs h2 {
-    border-bottom: solid var(--accent-color1);
-    padding-bottom: 10px;
-}
-
-.trip_overview_paragraphs p {
-    padding-top: 1rem;
-    text-align: left;
-}
-
-.trip_overview_paragraphs {
-    padding: var(--left-margin);
-    padding-top: 0px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 83px;
-    text-align: center;
-
-}
-
-.trips_container2 img {
-    width: 350px;
-    height: auto;
-}
-
-.trip_overview_images_verticle img {
-    width: 225px;
-    height: auto;
-}
-
-.trips_container3 {
-    padding: var(--padding);
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
-
-.chart_information {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    border: solid 1px var(--accent-color1);
-    background-color: var(--primary-color);
-}
-
-.chart_information h2,
-.chart_information p {
-    border: solid var(--accent-color1) 1px;
-}
-
-.chart_information h2 {
-    background-color: rgb(169, 194, 161)
-}
 
 
 /* Contact Us CSS */
@@ -719,8 +474,7 @@ iframe {
 
 
 /* Column 2: Form */
-.form,
-.home_form {
+.form {
     background-color: white;
     border-radius: 1rem;
     padding: 40px;
@@ -761,8 +515,6 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 10px;
-    padding-top: 0px;
 }
 
 button {
