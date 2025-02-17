@@ -307,6 +307,11 @@ article {
     text-align: center;
 }
 
+.rafting_images figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--accent-color1);
+}
+
 
 .rafting_images h2 {
     grid-column: 1 / 7;
